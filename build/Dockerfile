@@ -5,7 +5,6 @@ ENV LANG en_US.UTF-8
 ENV RAIDEN_ACCEPT_DISCLAIMER=True
 ENV RAIDEN_ENVIRONMENT_TYPE=production
 ENV RAIDEN_API_ADDRESS=0.0.0.0:80
-ENV RAIDEN_ETH_RPC_ENDPOINT=http://my.ethchain.dnp.dappnode.eth:8545
 
 RUN apk update && apk add --no-cache wget expect
 
