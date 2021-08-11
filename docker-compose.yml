@@ -7,7 +7,7 @@ services:
             - "data:/root/.raiden"
         environment: 
             - RAIDEN_ETH_RPC_ENDPOINT=http://my.ethchain.dnp.dappnode.eth:8545
-            - RAIDEN_EXTRA_OPT=--accept-disclaimer
+            - RAIDEN_EXTRA_OPTS=--accept-disclaimer
 volumes:
     data: {}
 
