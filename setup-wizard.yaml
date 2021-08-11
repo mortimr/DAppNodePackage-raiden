@@ -25,3 +25,10 @@ fields:
     require: true
     description: >-
       Raiden keystore address
+  - id: RAIDEN_EXTRA_OPT
+    target:
+      type: environment
+      name: RAIDEN_EXTRA_OPT
+    title: Extra CLI arguments
+    description: >-
+      Extra Raiden CLI arguments
