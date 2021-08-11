@@ -1,5 +1,7 @@
 version: '3.4'
 services:
     raiden.dnp.dappnode.eth:
-        image: 'raiden.dnp.dappnode.eth:0.0.1'
-        build: ./build
+        image: raidennetwork/raiden:v2.0.0
+        environment: 
+            - RAIDEN_ETH_RPC_ENDPOINT=http://my.ethchain.dnp.dappnode.eth:8545
+

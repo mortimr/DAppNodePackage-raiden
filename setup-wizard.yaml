@@ -1,0 +1,27 @@
+version: "2"
+fields:
+  - id: RAIDEN_ETH_RPC_ENDPOINT
+    target:
+      type: environment
+      name: RAIDEN_ETH_RPC_ENDPOINT
+    title: Ethereum RPC endpoint
+    description: >-
+      Ethereum rpc endpoint used by Raiden
+
+      Default: http://my.ethchain.dnp.dappnode.eth:8545
+  - id: RAIDEN_KEYSTORE_PASSWORD
+    target:
+      type: environment
+      name: RAIDEN_KEYSTORE_PASSWORD
+    title: Raiden Keystore Password
+    require: true
+    description: >-
+      Raiden keystore password
+  - id: RAIDEN_ADDRESS
+    target:
+      type: environment
+      name: RAIDEN_ADDRESS
+    title: Raiden Keystore Address
+    require: true
+    description: >-
+      Raiden keystore address
