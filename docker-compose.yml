@@ -1,8 +1,9 @@
 version: '3.4'
 services:
     raiden.dnp.dappnode.eth:
-        image: raidennetwork/raiden:v2.0.0
+        image: 'raiden.dnp.dappnode.eth:0.0.1'
+        build: ./build
         environment: 
             - RAIDEN_ETH_RPC_ENDPOINT=http://my.ethchain.dnp.dappnode.eth:8545
-        command: raiden --accept-disclaimer ${RAIDEN_EXTRA_OPT}
+            - RAIDEN_EXTRA_OPT=--accept-disclaimer
 
