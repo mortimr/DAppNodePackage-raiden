@@ -3,7 +3,11 @@ services:
     raiden.dnp.dappnode.eth:
         image: 'raiden.dnp.dappnode.eth:0.0.1'
         build: ./build
+        volumes:
+            - "data:/root/.raiden"
         environment: 
             - RAIDEN_ETH_RPC_ENDPOINT=http://my.ethchain.dnp.dappnode.eth:8545
             - RAIDEN_EXTRA_OPT=--accept-disclaimer
+volumes:
+    data: {}
 
