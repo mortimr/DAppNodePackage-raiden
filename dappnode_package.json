@@ -2,8 +2,8 @@
   "name": "raiden.dnp.dappnode.eth",
   "version": "2.0.0",
   "description": "The Raiden Network is an off-chain scaling solution, enabling near-instant, low-fee and scalable payments.",
-  "avatar": "/ipfs/QmaqgLyZXpETXYzhWcebNJnh6vPs4WqiCJbZY3EY1fXqer",
   "type": "service",
+  "categories": ["Developer tools"],
   "author": "DAppNode Association <admin@dappnode.io> (https://github.com/dappnode)",
   "contributors": [
     "Abel Boldú (@vdo)"
