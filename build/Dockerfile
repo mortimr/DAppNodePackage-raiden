@@ -4,4 +4,4 @@ RUN mkdir -p /home/.raiden
 WORKDIR /root/.raiden
 
 COPY init.sh /usr/bin
-CMD ["init.sh"]
+ENTRYPOINT [ "/usr/bin/init.sh" ]
